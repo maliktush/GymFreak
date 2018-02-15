@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GymFreak</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">      Create Account</string>
+    <string name="logout">Logout</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="this_is_main_activity_page">This is Main Activity Page</string>
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yasir.gymfreak.MainActivity"
+    android:background="@drawable/abc">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/l2"
+
+
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <ImageButton
+            android:background="#000000"
+            android:src="@drawable/chest"
+            android:scaleType="fitXY"
+            android:text="CHest Day"
+            android:textSize="40dp"
+            android:id="@+id/b11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"/>
+        <ImageButton
+            android:background="#000000"
+            android:src="@drawable/back"
+            android:scaleType="fitXY"
+            android:text="Back Day"
+            android:textSize="40dp"
+            android:id="@+id/b12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"/>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:background="#000000"
+                android:src="@drawable/arms"
+                android:scaleType="fitXY"
+                android:text="ARMS Day"
+                android:textSize="40dp"
+                android:id="@+id/b21"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="2dp"/>
+            <ImageButton
+                android:background="#000000"
+                android:src="@drawable/shoulder"
+                android:scaleType="fitXY"
+                android:text="SHoulder Day"
+                android:textSize="40dp"
+                android:id="@+id/b22"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="2dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:background="#000000"
+                android:src="@drawable/legs"
+                android:scaleType="fitXY"
+                android:text="Legs Day"
+                android:textSize="40dp"
+                android:id="@+id/b31"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="2dp"/>
+            <ImageButton
+                android:background="#000000"
+                android:src="@drawable/cardio"
+                android:scaleType="fitXY"
+                android:text="Cardio Day"
+                android:textSize="40dp"
+                android:id="@+id/b32"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="2dp"/>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/blogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="LOGOUT"
+            android:textColor="#ffffff"
+
+            android:background="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+</RelativeLayout>

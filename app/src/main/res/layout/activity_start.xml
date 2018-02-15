@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/abc"
+    android:layout_height="match_parent"
+    tools:context="com.example.yasir.gymfreak.StartActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Welcome to GymFreak"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_to_register_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:id="@+id/start_to_register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/startt_login_button"
+        android:layout_alignBottom="@+id/startt_login_button"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginEnd="17dp"
+        android:onClick="OnStartToRegisterButtonClick"
+        android:text="SIGN UP" />
+
+    <Button
+        android:id="@+id/startt_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="85dp"
+        android:onClick="OnclickForLoginButton"
+        android:text="LOGIN" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/body_builder" />
+</RelativeLayout>

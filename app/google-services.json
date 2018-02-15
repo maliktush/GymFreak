@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "942777151281",
+    "firebase_url": "https://gymfreak-2088c.firebaseio.com",
+    "project_id": "gymfreak-2088c",
+    "storage_bucket": "gymfreak-2088c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942777151281:android:ef0e71ebcd6131ec",
+        "android_client_info": {
+          "package_name": "com.example.yasir.gymfreak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942777151281-9jlrl1vo2g50utj5b8np29qdntpbd6jv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yasir.gymfreak",
+            "certificate_hash": "ac8d400f8a181880be0eca8198e1e69b80cdc3b1"
+          }
+        },
+        {
+          "client_id": "942777151281-trupkeasasqnd3cg0bib547fu93901as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQyIpv1UVO4FKbvi_xrT10rdn-U_S0DDM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942777151281-trupkeasasqnd3cg0bib547fu93901as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
